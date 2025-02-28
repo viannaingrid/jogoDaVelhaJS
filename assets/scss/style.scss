@@ -4,6 +4,15 @@
     box-sizing: border-box;
     text-align: center;
     font-family: Helvetica, sans-serif;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
 }
 
 h1 {
@@ -18,4 +27,85 @@ h1 {
     margin: 0 10px;
     border-radius: 15px;
     background-color: #ec7b97;
+}
+
+// jogo 
+
+#container {
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+#block-1, #block-2, #block-3 {
+    border-top: none;
+}
+
+#block-1, #block-4, #block-7 {
+    border-left: none;
+}
+
+#block-7, #block-8, #block-9 {
+    border-bottom: none;
+}
+
+#block-3, #block-6, #block-9 {
+    border-right: none;
+}
+
+// simbolos
+
+.x {
+    font-size: 65px;
+    color: #164ad8;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.o {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #24b810;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 17px;
+}
+
+// classe esconder 
+
+/* .hide {
+    display: none;
+} */
+
+// pontos 
+
+#scoreboard-container {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 25px;
+    position: relative;
+}
+
+#x-scoreboard{
+    color: #164ad8;
+    margin-right: 3px;
+}
+
+#o-scoreboard {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #24b810;
+    border-radius: 50%;
 }

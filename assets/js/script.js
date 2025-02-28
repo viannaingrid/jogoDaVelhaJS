@@ -21,16 +21,20 @@ for(let i = 0; i < boxes.length; i++) {
         
         // verifica se é X ou O
         if(this.childNodes.length == 0){
-            let cloneEl = el.cloneNode(true);
+                let cloneEl = el.cloneNode(true);
 
-            this.appendChild(cloneEl);
+                this.appendChild(cloneEl);
 
-            // computar jogada
-            if(player1 == player2){
-                player1++;
-            }else {
-                player2++;
-            }
+                // computar jogada
+                if(player1 == player2){
+                    player1++;
+                }else {
+                    player2++;
+                }
+
+                // checa quem venceu
+                checkWinCondition();
+
             }
     });
 }
@@ -44,4 +48,9 @@ function checkEl(player1, player2){
     }
 
     return el;
+}
+
+// ve quem ganhou
+function ckeckWinCondition(){
+    
 }

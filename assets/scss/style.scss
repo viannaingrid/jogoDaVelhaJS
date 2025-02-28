@@ -96,18 +96,32 @@ h1 {
     font-size: 25px;
     position: relative;
     display: flex;
+    flex-direction: column;
     gap: 35px;
 }
+.score {
+    display: flex;
+    justify-content: space-between;
 
-#x-scoreboard{
-    color: #164ad8;
-    margin-right: 3px;
+    #x-scoreboard{
+        color: #164ad8;
+        margin-right: 3px;
+    }
+    
+    #o-scoreboard {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid #24b810;
+        border-radius: 50%;
+    }
 }
 
-#o-scoreboard {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 3px solid #24b810;
-    border-radius: 50%;
+// mensagem de vitória
+
+#mensagem p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

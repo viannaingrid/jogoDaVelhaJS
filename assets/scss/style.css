@@ -19,11 +19,30 @@ h1 {
 }
 
 #buttons-container button {
+  background-color: #eee;
   border: none;
-  padding: 10px 15px;
-  margin: 0 10px;
-  border-radius: 15px;
-  background-color: #ec7b97;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 11em;
+  border-radius: 1rem;
+  color: #2864c5;
+  box-shadow: 0 0.4rem #133d82;
+  cursor: pointer;
+}
+#buttons-container button:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
+}
+#buttons-container button:hover:not(:disabled) {
+  background: #6594df;
+  color: white;
+  text-shadow: 0 0.1rem #bcb4b4;
+}
+#buttons-container button button:disabled {
+  cursor: auto;
+  color: grey;
 }
 
 #container {

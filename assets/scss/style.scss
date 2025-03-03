@@ -7,12 +7,18 @@
     
 }
 
-body {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    border: solid 5px #5e6ceb;
+    border-radius: 100px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.6);
+    width: 50%;
+    height: 50%;
+    margin: 9.8% 25%;
 }
 
 h1 {

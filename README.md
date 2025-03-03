@@ -1,6 +1,7 @@
 <header>
         <h1>🎮 Jogo da Velha em JavaScript</h1>
         <p>Um clássico Jogo da Velha desenvolvido com HTML, CSS, SASS e JavaScript. O jogo permite partidas entre dois jogadores.</p>
+        <img src="https://github.com/viannaingrid/jogoDaVelhaJS/blob/main/assets/img/jogodaVelha.png"/>
     </header>
     <br>
     <section id="funcionalidades">

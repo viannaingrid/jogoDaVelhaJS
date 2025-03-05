@@ -53,8 +53,8 @@
   
 <br>
 <section>
-  <h2>Jogue ao vivo no <a href="https://jogo-da-velha-js-beta.vercel.app/">Vercel</a></h2>
+  <h2>Jogue ao vivo no <a href="https://jogo-da-velha-js-beta.vercel.app/" target="_blank">Vercel</a></h2>
 </section>
     <footer>
-        <p>📌 Feito com 💙 por <a href="https://www.linkedin.com/in/ingrid-vianna/">Ingrid Vianna de Oliveira!</a></p>
+        <p>📌 Feito com 💙 por <a href="https://www.linkedin.com/in/ingrid-vianna/" target="_blank">Ingrid Vianna de Oliveira!</a></p>
     </footer>

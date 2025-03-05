@@ -5,7 +5,6 @@ let boxes = document.querySelectorAll('.box');
 let buttons = document.querySelectorAll('#buttons-container');
 let messageContainer = document.querySelector('#message');
 let messageText = document.querySelector('#message p');
-let secondPlayer;
 
 // Contador de jogadas
 let player1 = 0;
@@ -43,28 +42,6 @@ for(let i = 0; i < boxes.length; i ++) {
         checkWinCondition();
  
     });
-}
-
-// Saber se é 2 players ou contra IA
-for(let i = 0; i < buttons.length; i ++) {
-
-    buttons[i].addEventListener('click', function() {
-
-        secondPlayer = this.getAttribute('id');
-
-        for(let j = 0; j < buttons.length; j ++) {
-            buttons[j].style.display = 'none';
-        }
-
-        setTimeout(function() {
-
-            let container = document.querySelector('#container');
-            container.classList.remove('hide');
-
-        }, 500);
-
-    });
-
 }
 
 // function = Ver quem vai jogar

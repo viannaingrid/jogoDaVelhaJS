@@ -32,14 +32,6 @@ for(let i = 0; i < boxes.length; i ++) {
 
                 player1 ++;
 
-                if(secondPlayer == 'ai-player') {
-
-                    // Função para executar jogada do IA
-                    computerPlay();
-
-                    player2 ++;
-
-                }
 
             } else {
                 player2 ++;
